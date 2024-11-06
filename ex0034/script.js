@@ -1,0 +1,1 @@
+var nota = Number(prompt("Digite sua nota:"))
