@@ -1,9 +1,7 @@
 var numero = Number(prompt("Digite um numero:"))
 
-
-
-if (numero < 1) {
+if (numero > 0) {
     alert(positivo)
-} else (numero > -1) {
+} else if (numero < 0) {
     alert(negativo)
 }

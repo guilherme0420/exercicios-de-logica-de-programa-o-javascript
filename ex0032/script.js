@@ -4,9 +4,7 @@ var pesoAltura = peso / altura ** 2 == IMC
 
 if (IMC == 20) {
     alert("Peso ideal")
-}& if else (IMC < 18){
-    alert("Abaixo do peso")
-}& else if (IMC > 27) {
+}else if (IMC > 27) {
     alert("Sobrepeso")
 } else {
     alert("obeso")
