@@ -1,11 +1,12 @@
 var altura = Number(prompt("Digite sua altura:"))
 var peso = Number(prompt("Digite seu peso:"))
-var pesoAltura = peso / altura ** 2 == IMC
 
-if (IMC == 20) {
-    alert("Peso ideal")
-}else if (IMC > 27) {
-    alert("Sobrepeso")
-} else {
-    alert("obeso")
+if(peso / altura ** 2 < 18.5 ){
+    alert ("Abaixo do peso")
+}else if(peso / altura ** 2 < 24.9){
+    alert ("Peso normal")
+}else if(peso / altura ** 2 < 29.9){
+    alert ("Sobrepeso")
+}else{
+    alert ("Obeso")
 }
